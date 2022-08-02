@@ -1,6 +1,13 @@
 # Proyecto de fundamentos de Github
 
-Archivo de práctica, en este proyecto se practicarán conceptos relacionados con:
+Archivo de práctica, en este proyecto se practicarán conceptos relacionados con: 
+
+* Manipular los archivos de un repositorio local mediante los comandos básicos: add, commit, status, log
+* Entender qué es un repositorio remoto.
+* Clonar un repositorio remoto.
+* Manipular los archivos de un repositorio local y sincronizar los cambios en el repositorio remoto mediante los comandos básicos: push y pull.
+* Comprender cuándo se genera un conflicto y cómo solucionarlo.
+
 
 ## Familiarizacion con repositorios remotos  y locales
 *	Clone el repositorio. Llamaremos en adelante a este repositorio repositorio(1)
@@ -19,7 +26,7 @@ Archivo de práctica, en este proyecto se practicarán conceptos relacionados co
 ## Conflictos
 ### Modificar el archivo
 * Clone el repositorio remoto en un **directorio diferente** al que usó en la parte de familiarización
-* En el segundo repositorio modifique la primera línea del archivo .md que creo previamente
+* En el segundo repositorio modifique la primera línea del primer archivo .md que creo previamente
 * Guarde el archivo
 * Agregue el archivo al stagging area:  ``git add ruta del archivo``
 * Haga commit del archivo en el repositorio local: ``git commit -m "su mensaje" ``
@@ -42,10 +49,4 @@ Archivo de práctica, en este proyecto se practicarán conceptos relacionados co
       * Agregué el archivo al repositorio remoto  ``git add ruta``
       * Haga commit del archivo ``git commit -m "su mensaje" ``
       * Haga push al repositorio remoto ``git push origin main``
-
-
-
-##  Trabajar con otros
-* Ver parte 5 y 6 de este colab https://codelabs-preview.appspot.com/?file_id=1CXI_Mb68ZICNuY8Ir5nT4Vltcfp3FL-RLxwOV5UKC-M#0
-* Haga commit y push de sus archivos. Es posible que haya un conflicto con el repositorio
 
