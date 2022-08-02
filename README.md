@@ -39,9 +39,9 @@ Archivo de práctica, en este proyecto se practicarán conceptos relacionados co
  * Conflictos NO puede ser resueltos automáticamente por GIT. Estos confictos ocurren cuando se han modificado las mismas líneas de un archivo en dos repositorios diferentes y por lo tanto la copia remota y la copia local no coinciden.  Para solucionar este caso es necesario: 
    * Hacer pull al repositorio
    * Abrir con el editor preferido los archivos que tienen conflicto y editarlos manualmente. Las líneas de código que están después de la etiqueta HEAD corresponden a lo que está en el repositorio local y lo que está después de ===== corresponde a lo que está en el repositorio remoto. Quien corrije el error decide cuál de las dos versiones permanece en el archivo. En todo caso recuerde eliminar las etiquetas <<<<<<< HEAD, ======= y >>>>>>>. Una vez terminado el ajuste:
-   * Agregué el archivo al repositorio remoto  ``git add ruta``
-   * Haga commit del archivo ``git commit -m "su mensaje" ``
-   * Haga push al repositorio remoto ``git push origin main``
+      * Agregué el archivo al repositorio remoto  ``git add ruta``
+      * Haga commit del archivo ``git commit -m "su mensaje" ``
+      * Haga push al repositorio remoto ``git push origin main``
 
 
 
