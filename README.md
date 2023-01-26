@@ -43,7 +43,7 @@ Archivo de práctica, en este proyecto se practicarán conceptos relacionados co
 * Existen dos tipos de conflictos. 
   * Conflictos que pueden ser resueltos automáticamente por git. Esos son conflictos que no modifican las mismas partes de un archivo o que modifican archivos   
  diferentes.  En ese caso solo deberá escribir ``git pull origin``. El comando descargará los nuevos archivos y hará un merge automáticamente con sus archivos locales.
- * Conflictos NO puede ser resueltos automáticamente por GIT. Estos confictos ocurren cuando se han modificado las mismas líneas de un archivo en dos repositorios diferentes y por lo tanto la copia remota y la copia local no coinciden.  Para solucionar este caso es necesario: 
+  * Conflictos que NO puede ser resueltos automáticamente por GIT. Estos confictos ocurren cuando se han modificado las mismas líneas de un archivo en dos repositorios diferentes y por lo tanto la copia remota y la copia local no coinciden.  Para solucionar este caso es necesario: 
    * Hacer pull al repositorio
    * Abrir con el editor preferido los archivos que tienen conflicto y editarlos manualmente. Las líneas de código que están después de la etiqueta HEAD corresponden a lo que está en el repositorio local y lo que está después de ===== corresponde a lo que está en el repositorio remoto. Quien corrije el error decide cuál de las dos versiones permanece en el archivo. En todo caso recuerde eliminar las etiquetas <<<<<<< HEAD, ======= y >>>>>>>. Una vez terminado el ajuste:
       * Agregué el archivo al repositorio remoto  ``git add ruta``
