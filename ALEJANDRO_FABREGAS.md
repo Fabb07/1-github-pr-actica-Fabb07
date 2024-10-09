@@ -1,3 +1,3 @@
-En un lugar de la Mancha, de cuyo nombre noepruebaa
+Oh Gloria inmarcesible, oh júbilo inmortal
 
 
